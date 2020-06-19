@@ -1,0 +1,113 @@
+{
+	"objective": "work on products that weave together chemistry, biology, and electronics to create next generation analytic devices and procedures.",
+	"skills": [
+		{
+			"skill": "Python",
+			"type": "primary" 
+		},
+		{
+			"skill": "Linux",
+			"type": "primary" 
+		},
+		{
+			"skill": "Javascript",
+			"type": "primary" 
+		},
+		{
+			"skill": "React",
+			"type": "secondary" 
+		},
+		{
+			"skill": "PCR",
+			"type": "secondary" 
+		},
+		{
+			"skill": "C++",
+			"type": "minor" 
+		},
+		{
+			"skill": "AWS EC2/S3",
+			"type": "minor" 
+		},
+		{
+			"skill": "Apache",
+			"type": "minor" 
+		},
+		{
+			"skill": "Nginx",
+			"type": "minor" 
+		},
+		{
+			"skill": "CSS/SASS",
+			"type": "minor" 
+		},
+		{
+			"skill": "Wordpress",
+			"type": "minor" 
+		},
+		{
+			"skill": "Aseptic Techniques",
+			"type": "minor" 
+		}
+	],
+	"experiences": [
+		{
+			"role": "CTO",
+			"company": "Organize",
+			"city": "Los Angeles",
+			"state": "CA",
+			"start": "2018",
+			"end": "2020",
+			"link": "www.organizeapp.org",
+			"descriptions": [
+				"Built an application that helps citizens easily report and track police misconduct across the US",
+				"Reached over 25K users with our product and partnered with existing organizations to ensure the longterm continuation of the service"
+			]
+		},
+		{
+			"role": "Lead Engineer",
+			"company": "Embrace",
+			"city": "San Diego",
+			"state": "CA",
+			"start": "2017",
+			"end": "2018",
+			"descriptions": [
+				"Implemented firmware, networking, and analytics software for a wearable sensor system to detect changes in the walking patterns of aging adults",
+				"Worked with experienced kinesiologists to develop a program to help practitioners more accurately evaluate fall assessment tests"
+			]
+		},
+		{
+			"role": "Paver Guru",
+			"company": "Evergreen Supply",
+			"city": "San Jose",
+			"state": "CA",
+			"start": "2013",
+			"end": "2016",
+			"descriptions": [
+				"Optimized employee workflows in Sage with custom functionality",
+				"Managed, updated, and improved company website"
+			]
+		}
+	],
+	"education": {
+		"school": "UC San Diego",
+		"major": "Bc.S in Bioinformatics",
+		"start": "2012",
+		"end": "2018",
+		"description": "Bioinformatic algorithms, advanced data structures, recombinant techniques, protein purification, statistics",
+		"other": {
+			"description": "Tor Lab, Dept. of Chemistry - Student Researcher",
+			"start": "2016",
+			"end": "2017"
+		}
+	},
+	"other": {
+		"role": "Volunteer",
+		"company": "Code for San Jose",
+		"city": "San Jose",
+		"state": "CA",
+		"start": "2019",
+		"end": "2020",
+		"description": "Developed a public site in conjuction with the City of San Jose to encourage Bay area residents to take the 2020 Census"
+	}
+}

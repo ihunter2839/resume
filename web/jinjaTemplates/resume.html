@@ -12,7 +12,7 @@
                     Ian Hunter
                 </h1>
                 <p>
-                    Objective: work on products that weave together chemistry, biology, and electronics to create next generation analytic devices and procedures.
+                    Objective: {{ objective }}
                 </p>
             </div>
             <ul class="contact-container">
@@ -53,134 +53,66 @@
             <h2>
                 Skills
             </h2>
-            <span class="skill primary">
-                Python
-            </span>
-            <span class="skill primary">
-                Linux
-            </span>
-            <span class="skill primary">
-                Javascript
-            </span>
-            <span class="skill secondary">
-                React
-            </span>
-            <span class="skill secondary">
-                PCR
-            </span>
-            <span class="skill minor">
-                C++
-            </span>
-            <span class="skill minor">
-                AWS EC2/S3
-            </span>
-            <span class="skill minor">
-                Apache
-            </span>
-            <span class="skill minor">
-                Nginx
-            </span>
-            <span class="skill minor">
-                CSS/SASS
-            </span>
-            <span class="skill minor">
-                Wordpress
-            </span>
-            <span class="skill minor">
-                Aseptic Techniques
-            </span>
+            {% for skill in skills %}
+                <span class="skills {{skill.type}}">
+                    {{ skill.skill }}
+                </span>
+            {% endfor %}
         </div>
         <h2>
             Experience
         </h2>
         <ul class="experience-container">
-            <li>
-                <div class="title-row">
-                    <h3>
-                        CTO - Organize
-                    </h3>
-                    <p class="location">
-                        Los Angeles, CA
-                    </p>
-                    <p class="date-range">
-                        2018-2020
-                    </p>
-                </div>
-                <a 
-                    href="https://organizeapp.org"
-                    rel="noopener noreferrer nofollow"
-                    target="_blank">
-                    www.organizeapp.org
-                </a>
-                <p>
-                    Built an application that helps citizens easily report and track police misconduct across the US
-                </p>
-                <p>
-                    Reached over 25K users with our product and partnered with existing organizations to ensure the longterm continuation of the service
-                </p>
-            </li>
-            <li>
-                <div class="title-row">
-                    <h3>
-                        Lead Engineer - Embrace
-                    </h3>
-                    <p class="location">
-                        San Diego, CA
-                    </p>
-                    <p class="date-range">
-                        2017-2018
-                    </p>
-                </div>
-                <p>
-                    Implemented firmware, networking, and analytics software for a wearable sensor system to detect changes in the walking patterns of aging adults
-                </p>
-                <p>
-                    Worked with experienced kinesiologists to develop a program to help practitioners more accurately evaluate fall assessment tests
-                </p>
-            </li>
-            <li>
-                <div class="title-row">
-                    <h3>
-                        Paver Guru - Evergreen Supply
-                    </h3>
-                    <p class="location">
-                        San Jose, CA
-                    </p>
-                    <p class="date-range">
-                        2013-2016
-                    </p>
-                </div>
-                <p>
-                    Optimized employee workflows in Sage with custom functionality
-                </p>
-                <p>
-                    Managed, updated, and improved company website
-                </p>
-            </li>
+            {% for experience in experiences %}
+                <li>
+                    <div class="title-row">
+                        <h3>
+                            {{ experience.role }} - {{ experience.company }}
+                        </h3>
+                        <p class="location">
+                            {{ experience.city }}, {{ experience.state }}
+                        </p>
+                        <p class="date-range">
+                            {{ experience.start }} - {{ experience.end }}
+                        </p>
+                    </div>
+                    {% if experience.link %}
+                        <a 
+                            href="https://organizeapp.org"
+                            rel="noopener noreferrer nofollow"
+                            target="_blank">
+                            {{ experience.link }}
+                        </a>
+                    {% endif %}
+                    {% for description in experience.descriptions %}
+                        <p> {{ description }} </p>
+                    {% endfor %}
+                </li>
+            {% endfor %}
         </ul>
         <h2>
             Education
         </h2>
         <div class="title-row">
             <h3> 
-                UC San Diego 
+                {{ education.school }} 
             </h3>
             <h4>
-                Bc.S in Bioinformatics
+                {{ education.major }}
             </h4>
             <p class="date-range">
-                2012 - 2018
+                {{ education.start }} - {{ education.end }}
             </p>
         </div>
         <p>
-            Bioinformatic algorithms, advanced data structures, recombinant techniques, protein purification, statistics
+            {{ education.description }}
         </p>
         <div class="title-row">
             <p>
-                Tor Lab, Dept. of Chemistry - Student Researcher
+                {{ education.other.description }}
             </p>
             <p class="date-range">
-                2016 - 2017
+                {{ education.other.start }} - {{ education.other.end }}
             </p>
         </div>
         <h2>
@@ -188,17 +120,17 @@
         </h2>
         <div class="title-row">
             <h3> 
-                Volunteer - Code for San Jose
+                {{ other.role }} - {{ other.company }}
             </h3>
             <p class="location">
-                San Jose, CA
+                {{ other.city }}, {{ other.state }}
             </p>
             <p class="date-range">
-                2019 - 2020
+                {{ other.start }} - {{ other.end }}
             </p>
         </div>
         <p>
-            Developed a public site in conjuction with the City of San Jose to encourage Bay area residents to take the 2020 Census
+            {{ other.description }}
         </p>
 	</body>
 </html>

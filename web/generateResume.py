@@ -10,7 +10,7 @@ if __name__ == "__main__":
 
 	context = json.loads(open(sys.argv[1]).read())
 
-	template = env.get_template('test.html')
+	template = env.get_template('resume.html')
 
 	out = open(sys.argv[2], 'w')
 
