@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<ul id="list">
+		</ul>
+		<textarea id="input">
+		</textarea>
+	</body>
+	<script type="application/javascript">
+		const input = document.getElementById('input')
+		const list = document.getElementById('list')
+
+		const updateList = (items) => {
+			items.map( item => {
+				var elem = document.createElement('li')
+				elem.innerHTML = item
+				list.appendChild(elem)
+			})
+		}
+
+		var items = input.innerHTML.split(',')
+		updateList(items)
+
+		input.addEventListener('input', (event) => {
+			console.log(event.target.value)
+			items = event.target.value.split(',')
+			updateList(items)
+		})
+	</script>
+	<script 
+</html>
