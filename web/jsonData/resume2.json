@@ -1,0 +1,76 @@
+{
+	"education": {
+		"school": "UC San Diego",
+		"major": "Bc.S - Bioinformatics",
+		"start": "2012",
+		"end": "2018",
+		"description": "An interdisciplinary major with focuses in advanced data structures, algorithmic analysis, chemistry, biotechnology related lab techniques, and statistics."
+	},
+	"experiences": [
+		{
+			"role": "CTO",
+			"company": "Organize",
+			"city": "Los Angeles",
+			"state": "CA",
+			"start": "2018",
+			"end": "2020",
+			"link": "www.organizeapp.org",
+			"descriptions": [
+				"Built an application that helps citizens easily report and track police misconduct across the US",
+				"Reached over 25K users with our product and partnered with existing organizations to ensure the longterm continuation of the service"
+			]
+		},
+		{
+			"role": "Lead Engineer",
+			"company": "Embrace",
+			"city": "San Diego",
+			"state": "CA",
+			"start": "2017",
+			"end": "2018",
+			"descriptions": [
+				"Implemented firmware, networking, and analytics software for a wearable sensor system to detect changes in the walking patterns of aging adults",
+				"Worked with experienced kinesiologists to develop a program to help practitioners more accurately evaluate fall assessment tests"
+			]
+		},
+		{
+			"role": "Paver Guru",
+			"company": "Evergreen Supply",
+			"start": "2013",
+			"end": "2016",
+			"descriptions": [
+				"Optimized employee workflows in Sage with custom functionality",
+				"Managed, updated, and improved company website"
+			]
+		}
+	],
+	"skills": [
+		{
+			"title": "Languages",
+			"skills": "Python, Javascript, C++, HTML, C, CSS/SASS, SQL"
+		},
+		{
+			"title": "Frameworks and Libraries",
+			"skills": "Django, NodeJS, React, Redux, React Router, Apache, Nginx, BeautifulSoup, Pandas, Keras, MySQL, Postgres, GraphQL"
+		},
+		{
+			"title": "Laboratory Techniques",
+			"skills": "Aseptic techniques, DNA extraction and prep, protein purification, gel electrophoresis, HPLC, bacterial culturing"
+		},
+		{
+			"title": "Tools and Misc.",
+			"skills": "Linux, Git, AWS EC2/S3, TCP/IP, Arduino, RESTful APIs"
+		}
+	],
+	"others": [
+		{
+			"company": "Tor Lab, Dept. of Chemistry",
+			"role": "Student Researcher",
+			"description": "Assisted in the synthesis of candidate therapuetics"
+		},
+		{
+			"company": "Code for San Jose",
+			"role": "Volunteer",
+			"description": "Built an online portal to encourage participation in the 2020 Census"
+		}
+	]
+}
