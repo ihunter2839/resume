@@ -1,22 +1,14 @@
-.contact-container {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-	align-items: center;
-}
-
-.contact-container > ul {
-	width: 100%;
-	list-style: none;
+.contact-item {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
 	justify-content: center;
-	padding: 0;
 }
 
-.contact-container > ul * {
-	flex: 1 1;
-	text-align: center;
+.contact-item-image {
+	height: 1rem;
+	width: 1rem;
+	padding-right: .25rem;
 }
 
 .horizontal-separator {
@@ -38,28 +30,28 @@
 h1 {
 	text-align: center;
 	margin-top: 0;
-	margin-bottom:  .75rem;
-	font-size: 2.25rem;
+	margin-bottom:  .5rem;
+	font-size: 2rem;
 }
 
 h2 {
 	margin: .5rem 0;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 }
 
 h3 {
-	margin: .5rem 0;
-	font-size: 1.4rem;
+	margin:  .4rem 0;
+	font-size: 1.3rem;
 }
 
 h4 {
-	font-size: 1.2rem;
+	font-size: 1.15rem;
 }
 
 p {
 	margin-top: .4rem;
 	margin-bottom: .4rem;
-	font-size: 1.125rem;
+	font-size: 1rem;
 }
 
 a {
@@ -70,20 +62,52 @@ a {
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	height:  100%;
 }
 
 .left-col {
 	width: 65%;
+	display: flex;
+	flex-direction: column;
+}
+
+.left-col > * {
 	padding-right: .75rem;
+	padding-left:  .5in;
+	margin: 0 0;
 }
 
 .right-col {
-	padding-left: .75rem;
 	width: 35%;
+}
+
+.right-col > * {
+	padding-left:  .75rem;
+	padding-right: .5in;
+	margin: 0 0;
 }
 
 .right-col h3 {
 	margin: 1.25rem 0 .75rem 0;
+}
+
+.col > *:first-child {
+	padding-top: .4in;
+	height: 8%;
+	flex-shrink: 0;
+	padding-bottom: .25rem;
+}
+
+.col > *:last-child {
+	padding-bottom: 1rem;
+}
+
+.title-container {
+	background-color: aliceblue;
+}
+
+.title-mission {
+	text-align: center;
 }
 
 .title-row {
@@ -124,7 +148,6 @@ a {
 
 .skills-container {
 	list-style: none;
-	padding: 0;
 }
 
 .skills-item h4 {
@@ -137,9 +160,23 @@ a {
 
 .other-container {
 	list-style: none;
-	padding: 0;
+	display: flex;
+	flex-direction: column;
 }
 
 .other-item h4 {
 	margin: .4rem 0;
+}
+
+.other-footnote {
+	align-self: flex-end;
+	margin-top: 1.5rem;
+}
+
+.light-grey {
+	background-color: aliceblue;
+}
+
+.blue {
+	background-color: #c1cbff;
 }

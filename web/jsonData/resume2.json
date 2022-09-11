@@ -4,7 +4,7 @@
 		"major": "Bc.S - Bioinformatics",
 		"start": "2012",
 		"end": "2018",
-		"description": "An interdisciplinary major with focuses in advanced data structures, algorithmic analysis, chemistry, biotechnology related lab techniques, and statistics."
+		"description": "Interdisciplinary major with focuses in advanced data structures, algorithmic analysis, chemistry, biotechnology related lab techniques, and statistics"
 	},
 	"experiences": [
 		{
@@ -17,7 +17,7 @@
 			"link": "www.organizeapp.org",
 			"descriptions": [
 				"Built an application that helps citizens easily report and track police misconduct across the US",
-				"Reached over 25K users with our product and partnered with existing organizations to ensure the longterm continuation of the service"
+				"Reached over 25K users with our product and collaborated with existing organizations to ensure the longterm continuation of the service"
 			]
 		},
 		{
@@ -29,7 +29,7 @@
 			"end": "2018",
 			"descriptions": [
 				"Implemented firmware, networking, and analytics software for a wearable sensor system to detect changes in the walking patterns of aging adults",
-				"Worked with experienced kinesiologists to develop a program to help practitioners more accurately evaluate fall assessment tests"
+				"Partnered with leading kinesiologists to develop a program to help practitioners more accurately evaluate fall assessment tests"
 			]
 		},
 		{
@@ -38,15 +38,15 @@
 			"start": "2013",
 			"end": "2016",
 			"descriptions": [
-				"Optimized employee workflows in Sage with custom functionality",
-				"Managed, updated, and improved company website"
+				"Worked seasonally as a salesman and floor manager for a constuction and landscaping materials supplier",
+				"Optimized employee workflows in the point of sale system and managed company website"
 			]
 		}
 	],
 	"skills": [
 		{
 			"title": "Languages",
-			"skills": "Python, Javascript, C++, HTML, C, CSS/SASS, SQL"
+			"skills": "Python, Javascript, Java, C++, HTML, C, CSS/SASS, SQL"
 		},
 		{
 			"title": "Frameworks and Libraries",
@@ -58,7 +58,7 @@
 		},
 		{
 			"title": "Tools and Misc.",
-			"skills": "Linux, Git, AWS EC2/S3, TCP/IP, Arduino, RESTful APIs"
+			"skills": "Linux, Git, AWS EC2/S3, TCP/UDP, Arduino, RESTful APIs"
 		}
 	],
 	"others": [

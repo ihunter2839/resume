@@ -1,0 +1,91 @@
+{
+	"mission" : "Returning student looking for opportunities in semiconductor manufacturing, high voltage electronics, and grid electrification",
+	"educations": [
+		{
+			"school": "UC San Diego",
+			"major": "Bc.S - Bioinformatics",
+			"start": "2012",
+			"end": "2018",
+			"description": "Core classes in organic chemistry, algorithms and data structures, and statistics, with a specific focus on their applications to genomic sequencing"
+		},
+		{
+			"school": "San Jose State Univeristy",
+			"major": "Electrical Engineering - OpenU",
+			"start": "2022",
+			"end": "2023 (estimated)",
+			"description": "Core EE curriculum through the Open Univeristy program - circuit theory and analysis, OPAMPS, and digital signals"
+		}		
+	],
+	"experiences": [
+		{
+			"role": "IT Manager",
+			"company": "Evergreen Supply",
+			"city": "San Jose",
+			"state": "CA",
+			"start": "2020",
+			"end": "present",
+			"descriptions": [
+				"Managed rollout of new Point of Sale (PoS) system for a small-medium sized construction and landscape supply business",
+				"Installed and configured networking equipment and hardware firewalls for two branch locations",
+				"Monitor and manage website, VOIP, and PoS systems on an ongoing basis"
+			]
+		},
+		{
+			"role": "Engineer",
+			"company": "Embrace",
+			"city": "San Diego",
+			"state": "CA",
+			"start": "2017",
+			"end": "2018",
+			"descriptions": [
+				"Developed a wearable device that analyzed gait patterns in aging adults for the purpose of fall prevention",
+				"Researched and implemented algorithms for IMU sensor fusion and gait parameter determination",
+				"Partnered with leading kinesiologists to complement visually administered fall risk assessments with wearable sensors"
+			]
+		},
+		{
+			"role": "CTO",
+			"company": "Organize",
+			"city": "Los Angeles",
+			"state": "CA",
+			"start": "2018",
+			"end": "2020",
+			"descriptions": [
+				"Developed a platform to crowdsource information on day to day interactions between police officers and citizens",
+				"Created an open API to promote data accessibility and developed data ingestion systems to maintain department and officer profiles"
+			]
+		}
+	],
+	"skills": [
+		{
+			"title": "Languages",
+			"skills": "Python, Javascript, C++, HTML, C, CSS, SQL"
+		},
+		{
+			"title": "Tools and Programs",
+			"skills": "Linux, Git, AWS, Arduino, Raspberry Pi/Pico, LTSpice, Altium, Markdown, Jupyter Notebook"
+		}
+	],
+	"others": [
+		{
+			"company": "SJSU Spartan Racing",
+			"role": "Formula SAE",
+			"description": "Implemented control functionality and logic for drag reduction system"
+		},
+		{
+			"company": "Solar Panel System",
+			"role": "Installer",
+			"description": "Planned and installed a 9.6kW ground mount solar system to offset our home electricity costs" 
+		},
+		{
+			"company": "Tor Lab, Dept. of Chemistry",
+			"role": "Student Researcher",
+			"description": "Assisted in the synthesis of antibiotic based candidate therapuetics for a specific class of genetic diseases"
+		},
+		{
+			"company": "Code for San Jose",
+			"role": "Volunteer",
+			"description": "Built a React based online portal to encourage participation in the 2020 Census in partnership with the City of San Jose"
+		}
+	]
+}
